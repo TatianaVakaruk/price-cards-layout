@@ -1,6 +1,6 @@
 Price cards layout
 
-https://tatianavakaruk.github.io/price-card/
+https://tatianavakaruk.github.io/price-cards-layout/
 
 It is works on just desktop
 
