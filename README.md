@@ -1,20 +1,20 @@
-Price cards layout
+# Price cards
 
-https://tatianavakaruk.github.io/price-cards-layout/
+### [site link]https://tatianavakaruk.github.io/price-cards-layout/
 
-It is works on just desktop
+Layout support desktop (up to 1440) version
 
-The tech stack is:
+### The tech stack is:
 
-HTML5
+- [HTML5]https://en.wikipedia.org/wiki/HTML5
 
-CSS3
+- [CSS3]https://simple.wikipedia.org/wiki/Cascading_Style_Sheets
 
-Flexbox
+- [Flexbox]https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout
 
-Sass (Scss)
+- [Sass (Scss)]https://sass-lang.com/
 
-BEM methodology
+- [BEM methodology]https://en.bem.info/methodology/
 
 Author:
 
