@@ -2,13 +2,12 @@
 @import 'price-card.scss';
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    display: flex;
-    min-height: 100vh;
-    font-family: 'Montserrat', sans-serif;
-    background-color: $dark;
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: $dark;
 }
-
