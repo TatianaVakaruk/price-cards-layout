@@ -1,4 +1,4 @@
-# Layout Sample Project
+# Price cards
 
 ### [Site link](https://tatianavakaruk.github.io/price-cards-layout/)
 
