@@ -87,11 +87,9 @@ body {
   bottom: 15px;
 }
 .price-card__description_second {
-  margin-bottom: 50px;
-  padding-right: 10px;
-  padding-left: 10px;
+  margin-bottom: 53px;
   position: relative;
-  top: 2px;
+  bottom: 13px;
 }
 .price-card__options-list {
   padding: 0;
