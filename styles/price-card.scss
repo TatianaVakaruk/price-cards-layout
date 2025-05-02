@@ -93,12 +93,10 @@ body {
     font-size: 15px;
     text-align: center;
     position: relative;
-    bottom: 10px;
+    bottom: 15px;
 
     &_second {
       margin-bottom: 50px;
-      padding-left: 10px;
-      padding-right: 10px;
     }
   }
 
@@ -110,7 +108,7 @@ body {
 
     &_second {
       position: relative;
-      bottom: 23px;
+      bottom: 25px;
     }
   }
 
@@ -131,6 +129,8 @@ body {
     font-size: 14px;
     color: $white;
     cursor: pointer;
+    position: relative;
+    bottom: 5px;
 
     &_green {
       background-color: $green;
@@ -194,5 +194,6 @@ body {
 span {
   position: relative;
   bottom: 22px;
+  right: 3px;
   margin-bottom: 40px;
 }
