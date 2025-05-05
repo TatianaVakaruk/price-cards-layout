@@ -16,14 +16,14 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
+    <title>Price cards</title>
   </head>
   <body>
-    <div class="container">
+    <section class="price-cards">
       <div class="price-card">
-        <div class="price-card__title">
-          <div class="price-card__title-basic">Basic</div>
-          <div class="price-card__title-website">Website</div>
+        <div class="price-card__container">
+          <h2 class="price-card__container_title">Basic</h2>
+          <div class="price-card__container_subtitle">Website</div>
         </div>
         <div class="price-card__price price-card__price_green">99€</div>
         <p class="price-card__description">
@@ -58,11 +58,11 @@
         <button class="price-card__order-btn price-card__order-btn_green">ORDER NOW</button>
       </div>
       <div class="price-card">
-        <span class="tape">POPULAR</span>
+        <span class="price-card__promotion">POPULAR</span>
         <div class="second">
-          <div class="price-card__title price-card__title_second">
-            <div class="price-card__title-basic">Business</div>
-            <div class="price-card__title-website">Website</div>
+          <div class="price-card__container price-card__container_second">
+            <h2 class="price-card__container_title">Business</h2>
+            <div class="price-card__container_subtitle">Website</div>
           </div>
           <div class="price-card__price price-card__price_blue">299€</div>
           <div class="price-card__second">
@@ -100,9 +100,9 @@
         </div>
       </div>
       <div class="price-card">
-        <div class="price-card__title">
-          <div class="price-card__title-basic">Webshop</div>
-          <div class="price-card__title-website">Website</div>
+        <div class="price-card__container">
+          <h2 class="price-card__container_title">Webshop</h2>
+          <div class="price-card__container_subtitle">Website</div>
         </div>
         <div class="price-card__price price-card__price_orange">599€</div>
         <p class="price-card__description">
@@ -136,6 +136,6 @@
         </ul>
         <button class="price-card__order-btn price-card__order-btn_orange">ORDER NOW</button>
       </div>
-    </div>
+    </section>
   </body>
 </html>
