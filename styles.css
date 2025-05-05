@@ -81,7 +81,7 @@
 .price-card__description_second {
   margin-bottom: 53px;
   position: relative;
-  top: 54px;
+  top: 51px;
 }
 .price-card__promotion {
   position: absolute;
@@ -101,11 +101,11 @@
   padding: 0;
   margin: 0;
   position: relative;
-  bottom: 10px;
+  bottom: 12px;
 }
 .price-card__options-list_second {
   position: relative;
-  top: 38px;
+  top: 37px;
 }
 .price-card__options-list-item:nth-child(odd) {
   background-color: #2a3438;
@@ -134,7 +134,7 @@
   margin-left: 112px;
   margin-top: 35px;
   position: relative;
-  top: 57px;
+  top: 58px;
 }
 .price-card__order-btn_orange {
   background-color: #ec632a;
