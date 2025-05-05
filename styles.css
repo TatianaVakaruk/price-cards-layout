@@ -105,7 +105,7 @@
 }
 .price-card__options-list_second {
   position: relative;
-  top: 35px;
+  top: 40px;
 }
 .price-card__options-list-item:nth-child(odd) {
   background-color: #2a3438;
