@@ -1,56 +1,41 @@
 .price-card {
+  position: relative;
   display: flex;
   flex-direction: column;
+  margin: auto;
   overflow: hidden;
   width: 380px;
   height: 770px;
   background-color: $grey;
-  margin: auto;
-  position: relative;
 
   &:last-child {
     margin-right: 0;
   }
 
-  &__second {
-    position: relative;
-    top: 15px;
-  }
-
-  &__options-list-item {
-    height: 50px;
-    line-height: 18px;
-    font-size: 15px;
+  &__promotion {
+    position: absolute;
+    top: 31px;
+    right: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 147px;
+    height: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgba(220, 63, 69, 1);
+    transform: rotate(45deg);
   }
 
   &__container {
-    text-align: center;
-    margin-top: 37px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    &_second {
-      position: relative;
-      top: 67px;
-    }
-    &_title {
-      margin: 0;
-      padding: 0;
-      line-height: 100%;
-      font-size: 35px;
-      font-weight: 700;
-    }
-
-    &_subtitle {
-      margin: 0;
-      padding: 0;
-      line-height: 100%;
-      font-size: 20px;
-      position: relative;
-      top: 5px;
-    }
+    margin-top: 37px;
+    text-align: center;
   }
+
   &__price {
     margin-bottom: 37px;
     margin-top: 41px;
@@ -70,20 +55,26 @@
       position: relative;
       top: 65px;
     }
+
     &_orange {
       background-color: $orange;
     }
   }
 
+  &__wrapper {
+    position: relative;
+    top: 15px;
+  }
+
   &__description {
+    position: relative;
+    bottom: 15px;
     padding-left: 26px;
     padding-right: 26px;
     margin-bottom: 37px;
     line-height: 18px;
     font-size: 15px;
     text-align: center;
-    position: relative;
-    bottom: 15px;
 
     &_second {
       margin-bottom: 53px;
@@ -91,25 +82,12 @@
       top: 54px;
     }
   }
-  &__promotion {
-    position: absolute;
-    top: 31px;
-    right: -30px;
-    transform: rotate(45deg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 147px;
-    height: 25px;
-    font-size: 14px;
-    font-weight: 700;
-    background-color: rgba(220, 63, 69, 1);
-  }
+
   &__options-list {
-    padding: 0;
-    margin: 0;
     position: relative;
     bottom: 13px;
+    padding: 0;
+    margin: 0;
 
     &_second {
       position: relative;
@@ -123,7 +101,39 @@
     font-size: 15px;
   }
 
+  &__options-list-item {
+    height: 50px;
+    line-height: 18px;
+    font-size: 15px;
+  }
+
+  &__icon {
+    position: absolute;
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-bottom: 22px;
+    width: 15px;
+    height: 13px;
+    list-style-type: none;
+
+    &_green {
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
+    }
+
+    &_blue {
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
+    }
+
+    &_orange {
+      background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
+    }
+  }
+
   &__order-btn {
+    position: relative;
+    bottom: 5px;
     margin: auto;
     line-height: 17px;
     border-radius: 20px;
@@ -134,8 +144,6 @@
     font-size: 14px;
     color: $white;
     cursor: pointer;
-    position: relative;
-    bottom: 5px;
 
     &_green {
       background-color: $green;
@@ -155,37 +163,39 @@
   }
 }
 
-.second {
+.contaiter-for-content {
   position: relative;
   bottom: 66px;
 }
 
-.arraw {
-  display: inline-block;
-  margin-top: 18px;
-  margin-left: 22px;
-  margin-right: 22px;
-  margin-bottom: 22px;
-  width: 15px;
-  height: 13px;
-  list-style-type: none;
-
-  &_green {
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
+.container {
+  &__title {
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+    font-size: 35px;
+    font-weight: 700;
   }
 
-  &_blue {
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
+  &__subtitle {
+    position: relative;
+    top: 5px;
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+    font-size: 20px;
   }
 
-  &_orange {
-    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
+  &_second {
+    position: relative;
+    top: 67px;
   }
 }
 
-span {
+.description-for-list-item {
   position: relative;
-  bottom: 23px;
+  top: 16px;
   right: 3px;
+  left: 57px;
   margin-bottom: 40px;
 }
